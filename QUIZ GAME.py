@@ -17,7 +17,7 @@ else:
 
 answer = input("Who is the current president of Canada? ")
 if answer.lower() == "justin trudo":
-  print('Congrats you are right!')
+     print('Correct!')
     score += 1
 else:
    print("sorry incorrect!")
