@@ -1,40 +1,40 @@
-print("Welcome to Quiz Game!")
+print("Welcome to my computer quiz!")
 
 playing = input("Do you want to play? ")
 
 if playing.lower() != "yes":
     quit()
 
-print("So! play :)")
+print("Okay! Let's play :)")
 score = 0
 
-answer = input("Who Is the current president of india? ")
-if answer.lower() == "droupadi murmu":
-    print('Congrats you are right!')
+answer = input("What does CPU stand for? ")
+if answer.lower() == "central processing unit":
+    print('Correct!')
     score += 1
 else:
-    print("sorry incorrect!")
+    print("Incorrect!")
 
-answer = input("Who is the current president of Canada? ")
-if answer.lower() == "justin trudo":
-     print('Correct!')
+answer = input("What does GPU stand for? ")
+if answer.lower() == "graphics processing unit":
+    print('Correct!')
     score += 1
 else:
-   print("sorry incorrect!")
+    print("Incorrect!")
 
-answer = input("What does PCB stands for? ")
-if answer.lower() == "pakistan cricket board":
-    print('Congrats you are right!')
+answer = input("What does RAM stand for? ")
+if answer.lower() == "random access memory":
+    print('Correct!')
     score += 1
 else:
-    print("sorry incorrect!")
+    print("Incorrect!")
 
-answer = input("When bangladesh seperated with pakistan? ")
-if answer.lower() == "1971:
-      print('Congrats you are right!')
+answer = input("What does PSU stand for? ")
+if answer.lower() == "power supply":
+    print('Correct!')
     score += 1
 else:
-    print("sorry incorrect!")
+    print("Incorrect!")
 
-print("You Score + str(score) + " questions correct!")
-print("Your Score " + str((score / 4) * 100) + "%.")
+print("You got " + str(score) + " questions correct!")
+print("You got " + str((score / 4) * 100) + "%.")
